@@ -18,7 +18,7 @@ int main()
     }
     sort(m.begin(),m.end());
     // Declaring a 2D vector of 3 X n. 
-    // The 1st row denotes the Response Time (RT), 2nd row denotes the Wait Time (WT), and the 3rd row denotes the Turn Around Time (TAT)
+    // The 1st row denotes the Response Time (RT), 2nd row denotes the Wait Time (WT), and the 3rd row denotes the Turn Around Time (TAT).
     vector<vector<int>> v(3,vector<int>(n));
     int count = 0,k=0;
     for(int i=0;i<n;i++)
